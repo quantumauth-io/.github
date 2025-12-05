@@ -75,4 +75,7 @@ Preventing replay or impersonation.
 
 ### ✔️ **Designed for Developers**
 Simple, consistent flow:
-
+client: request challenge
+server: return challenge
+client: sign with TPM key
+server: verify signature → authenticated
